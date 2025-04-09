@@ -28,7 +28,7 @@ export default function LoginPage() {
           type="text"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
-          className="w-full p-2 mb-3 border rounded"
+          className="w-full p-2 mb-3 border rounded text-black"
         />
       </div>
       <div>
@@ -37,7 +37,7 @@ export default function LoginPage() {
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="w-full p-2 mb-4 border rounded"
+          className="w-full p-2 mb-4 border rounded text-black"
         />
         </div>
         <div className='flex flex-col items-center space-y-5'>
@@ -79,15 +79,15 @@ return (
     type="password"
     value={password}
     onChange={(e) => setPassword(e.target.value)}
-    className="w-full p-2 border rounded"
+    className="w-full p-2 border rounded text-black"
   />
-  <h1 className='text-gray-500 text-xs mb-12'>8자 미만</h1>
+  <h1 className='text-gray-500 text-xs mb-2'>8자 미만</h1> {/* mb-12 → mb-2 */}
   <h1 className='text-black text-xs'>비밀번호 확인</h1>
   <input
     type="password"
     value={password}
     onChange={(e) => setPassword(e.target.value)}
-    className="w-full p-2 mb-4 border rounded"
+    className="w-full p-2 mb-4 border rounded text-black"
   />
   </div>
   <div className='flex flex-col items-center space-y-5'>
