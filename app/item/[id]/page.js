@@ -1,20 +1,20 @@
 // app/item/[id]/page.js
-import Navbar from "@/app/components/Navbar";
+import Navbar from "@/app/components/NavbarAfterLogin";
 
 const products = {
   xlah: {
     name: '티모',
-    description: '좆모',
+    description: '티모',
     price: 9900,
   },
   dlffkdhdl: {
-    name: '일라어이',
-    description: '반군',
+    name: '서폿 티모',
+    description: '모모모모',
     price: 12000,
   },
   eldzl: {
-    name: '징크스',
-    description: '징키',
+    name: '꿀벌 티모',
+    description: '꿀벌 티모',
     price: 12000,
   },
 };

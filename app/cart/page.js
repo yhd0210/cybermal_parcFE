@@ -1,6 +1,6 @@
 
 import Image from 'next/image';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/NavbarAfterLogin';
 
 export default function Cart() {
   return (

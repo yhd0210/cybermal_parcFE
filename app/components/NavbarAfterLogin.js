@@ -1,7 +1,5 @@
-
 import Link from 'next/link';
-import { FaUser, FaShoppingCart, FaSearch} from 'react-icons/fa';
-
+import { FaUser, FaSignOutAlt, FaShoppingCart, FaSearch} from 'react-icons/fa';
 
 export default function Navbar() {
   return (
@@ -16,17 +14,17 @@ export default function Navbar() {
           className="flex-1 border border-gray-300 text-gray-600 rounded px-3 py-2"
         />
         <FaSearch className="text-gray-500 -translate-x-10">
-          
         </FaSearch>
       </div>
       <div className="flex items-center gap-4 text-xl text-gray-700">
-        <Link href="/user">
-        <FaUser />
-
-        </Link>
+        {/* <Link href="/user">
+          <FaUser />
+        </Link> */}
         <Link href="/cart">
-        <FaShoppingCart />
-
+          <FaShoppingCart />
+        </Link>
+        <Link href="/logout">
+          <FaSignOutAlt />
         </Link>
       </div>
     </nav>
