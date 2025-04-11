@@ -7,9 +7,7 @@ export default function Home() {
 
   useEffect(() => {
     const loggedIn = localStorage.getItem('loggedIn');
-    if (loggedIn !== 'true') {
-      router.push('/login');
-    }
+    router.push('/home');
   }, []);
 
   return (
